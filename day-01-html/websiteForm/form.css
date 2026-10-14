@@ -1,0 +1,116 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+ul{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 80px;
+  padding: 10px;
+  padding-right: 3%;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+li:first-child{
+  width: 50%;
+  padding-left: 3%;
+  font-size: xx-large;
+}
+
+li{
+   font-size: 20px;
+   font-weight: 600;
+}
+
+li a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  color: #c0322e;
+}
+
+
+
+form{
+  border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 25px;
+    padding: 50px;
+      background-color: rgba(25, 10, 8, 0.55);
+    color: white;
+      backdrop-filter: blur(8px);
+
+     
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+input{
+    height: 40px;
+    width: 250px;
+    border: none;
+        border-bottom: 2px solid #e6e6e6;
+    background-color: transparent;
+    
+}
+
+input::placeholder, a, .login {
+  color: white;
+}
+
+.login, .forgot{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login{
+  background-color: #c0322e;
+    color: white;
+border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.login:hover{
+    background-color: #9e2623;
+color: #fa5d5d;
+ 
+    transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(224, 68, 63, 0.45);
+}
+
+.login:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+p{
+  text-align: center;
+}
+

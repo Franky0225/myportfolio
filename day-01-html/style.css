@@ -1,0 +1,101 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(26, 21, 21);
+  background-image: radial-gradient(
+  circle at 75% 50%,
+  rgba(192, 50, 46, 0.35) 0%,
+  rgba(192, 50, 46, 0.12) 30%,
+  transparent 60%
+);}
+
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 80px;
+  padding: 10px;
+  padding-right: 3%;
+  list-style: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+li:first-child{
+  width: 50%;
+  padding-left: 3%;
+  font-size: xx-large;
+}
+
+li, a{
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+}
+
+li a {
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+li a:hover {
+  color: #c0322e;
+}
+
+main{
+  color: white;
+  display: flex;
+  justify-content:space-between;
+  width: 100%;
+}
+
+.frankdiv{
+  padding-top: 200px;
+  text-align: left;
+  margin-left: 5%;
+}
+
+h1{
+  font-size: 80px;
+  margin: 0;
+}
+
+.letstalk{
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: color 0.3s;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+
+.letstalk:hover {
+  color: white;
+  background-color: black;
+}
+
+.frankimage{
+  position: relative;
+  top: 80px;
+  padding-right:20%;
+  
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }  
+}
+}
