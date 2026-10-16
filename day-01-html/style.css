@@ -150,39 +150,47 @@ h1{
   align-content: flex-start;
   width: 100%;
   margin-top: 120px;
-  padding: 0 3%;
+  padding: 80px;
   box-sizing: border-box;
 }
 
 main .projectsh1 {
   text-align: left;
   width: 100%;
-  margin: 0% 0 30px;
+  margin: 50px 30px;
   font-size: 50px;
 }
 
 .projectsdiv{
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 30px;
+  padding: 50px 200px;
+
+}
+
+.projectsdiv a {
+  display: inline-block;
   text-align: center;
 }
 
+
 .projects{
-  width: 100%;
+  display: block;
+  width: 300px;
   border-radius: 20px;
   cursor: pointer;
   box-sizing: border-box;
+    margin: 50px;
 }
 
 .projblurr{
-  width: 100%;
+   width: 300px;
   border-radius: 20px;
   cursor: pointer;
   box-sizing: border-box;
   filter: blur(8px);
-
+  display: block;
+    margin: 50px;
 }
 
 .projects:hover{
@@ -191,3 +199,49 @@ main .projectsh1 {
 }
 
 
+/* contact page */
+
+.contactdiv{
+  box-sizing: border-box;
+  display:flex;
+  width: 100%;
+  justify-content:center;
+  padding: 0 20%;
+  color: white;
+  padding: 10%;
+}
+
+.contactdiv div{
+  margin: 0px 100px;
+}
+
+.contactmsg{
+  width: 500px;
+}
+.contactmsg input{
+  display: block;
+  margin: 20px 0px;
+  width: 100%;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.contactmessage{
+ display: block;
+  margin: 20px 0px;
+  width: 100%;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.contactdetails{
+  width: 500px;
+}
+
+.contactdetails h3{
+  font-size: 30px;
+}
